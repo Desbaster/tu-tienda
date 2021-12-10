@@ -1,3 +1,17 @@
 .right-aligned {
   justify-content: flex-end;
 }
+
+.Cart {
+  text-decoration: none;
+  margin: 0 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Number {
+  padding: 0px 3px;
+  margin-bottom: -2px;
+  color: #fff;
+}

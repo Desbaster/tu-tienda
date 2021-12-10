@@ -1,4 +1,14 @@
 .App {
-  height: 100vh;
   background-color: rgba(33, 37, 41, 0.95);
+}
+
+.ItemContainer {
+  height: calc(100vh - 66px);
+  text-align: center;
+  padding: 30vh;
+  color: #fff;
+}
+
+h2.container {
+  margin-bottom: 0px;
 }

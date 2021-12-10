@@ -1,8 +1,8 @@
 import logo from "../logo.svg";
-import bolsa from "../bolsa.svg";
 import "./NavBar.css";
 import "bootstrap/dist/css/bootstrap.css";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import CartWidget from "./CartWidget";
 
 function NavBar() {
   return (
@@ -15,7 +15,7 @@ function NavBar() {
         collapseOnSelect
       >
         <Container>
-          <Navbar.Brand mx-5>
+          <Navbar.Brand>
             <img src={logo} alt="logo" width="40px" height="40px" /> Tu Tienda
           </Navbar.Brand>
           <Navbar.Toggle />
@@ -38,11 +38,9 @@ function NavBar() {
               </NavDropdown>
               <Nav.Link href="#nosotos">Nosotros</Nav.Link>
               <Nav.Link href="#contacto">Contacto</Nav.Link>
-              <a href="/">
-                <img src={bolsa} alt="logo" width="30px" height="30px" />
-              </a>
             </Nav>
           </Navbar.Collapse>
+          <CartWidget/>
         </Container>
       </Navbar>
     </Container>
