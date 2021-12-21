@@ -1,0 +1,21 @@
+.itemlistcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2px;
+    padding-bottom: 30px;
+    height: 80vh;
+    background: linear-gradient(
+        to right bottom, 
+        rgba(255,255,255,0.8), 
+        rgba(255,255,255,0.4));
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.4);
+}
+.title {
+    margin-bottom: 30px;
+}
