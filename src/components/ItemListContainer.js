@@ -1,12 +1,12 @@
 import React from "react";
-import ItemList from "./ItemList";
+import ItemDetail from "./ItemDetail";
 import './ItemListContainer.css'
 
 const ItemListContainer = (props) => {
   return (
     <div className="itemlist">
-      <h2 className="container itemContainer">{props.greeting}</h2>
-      <ItemList />
+      <h2 className="container itemContainer">{props.title}</h2>
+      <ItemDetail />
     </div>
   );
 };
